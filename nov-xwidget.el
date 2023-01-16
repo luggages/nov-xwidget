@@ -34,6 +34,8 @@
 (require 'shr)
 (require 'xwidget)
 (require 'cl-lib)
+(require 'evil-core)
+
 
 (defcustom nov-xwidget-script (format "
 console.log(\"Hello world\");
